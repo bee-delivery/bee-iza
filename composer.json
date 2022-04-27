@@ -2,6 +2,7 @@
     "name": "beedelivery/bee-iza",
     "description": "Package for integration with safe Iza",
     "license": "MIT",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "rafael",
