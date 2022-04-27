@@ -14,5 +14,15 @@
         "psr-4": {
             "Beedelivery\\Iza\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beedelivery\\Iza\\IzaServiceProvider"
+            ],
+            "aliases": {
+                "Iza": "Beedelivery\\Iza\\Facades\\Iza"
+            }
+        }
     }
 }
