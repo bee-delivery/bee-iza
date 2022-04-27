@@ -7,10 +7,9 @@
             "email": "rafaelrodrigues@bee.com.br"
         }
     ],
-    "type": "library",
-    "license": "GPL-3.0-only",
-    "minimum-stability": "stable",
-    "prefer-stable": false,
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.3"
     },
