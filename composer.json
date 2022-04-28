@@ -1,21 +1,22 @@
 {
     "name": "beedelivery/bee-iza",
+    "keywords": ["iza", "laravel", "safe"],
     "description": "Package for integration with safe Iza",
     "authors": [
         {
-            "name": "rafael",
-            "email": "rafaelrodrigues@bee.com.br"
+            "name": "Bee Delivery",
+            "email": "suporte@beedelivery.com.br"
         }
     ],
+    "type": "library",
     "license": "MIT",
-    "prefer-stable": true,
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.1.3"
     },
     "autoload": {
         "psr-4": {
-            "Beedelivery\\Iza\\": "src"
+            "Beedelivery\\Iza\\": "src/"
         }
     },
     "extra": {
